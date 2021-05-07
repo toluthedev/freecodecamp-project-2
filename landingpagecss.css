@@ -1,0 +1,58 @@
+
+body{ 
+background:#D3D3D3;
+}
+
+#header-img {
+    height: 40px;
+    width:350px;
+}
+
+#nav-bar {
+    text-align: right;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    color:black;
+    
+}
+
+form {
+    text-align: center;
+}
+
+.description-headings {
+ 
+   font-size: 25px;
+   padding: 0px; 
+   margin:0px;
+}
+.paragraph-description {
+    padding:0px;
+    margin:0px;
+
+}
+
+.box-container {
+    display:grid;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+   
+}
+
+#box-1 {
+    background-color: pink;
+}
+
+#box-2{
+    background-color: green;
+}
+
+#box-3 {
+    background-color: blue;
+}
+
