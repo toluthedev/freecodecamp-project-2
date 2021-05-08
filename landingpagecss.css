@@ -1,6 +1,6 @@
 
 body{ 
-background:#D3D3D3;
+background:#FAFAFA;
 }
 
 #header-img {
@@ -10,12 +10,22 @@ background:#D3D3D3;
 
 #nav-bar {
     text-align: right;
+    font-family: arial;
+    word-spacing: 10px;
+  
 
 }
 
+/*
+#second-navbar-option{
+    letter-spacing:50px; 
+
+}
+*/
+
 h1 {
     text-align: center;
-    font-size: large;
+    font-size: 23px;
     font-family: sans-serif;
     color:black;
     
@@ -28,12 +38,13 @@ form {
 .description-headings {
  
    font-size: 25px;
-   padding: 0px; 
-   margin:0px;
+
+
+
 }
 .paragraph-description {
-    padding:0px;
-    margin:0px;
+font-size: 10px; 
+
 
 }
 
@@ -56,3 +67,22 @@ form {
     background-color: blue;
 }
 
+#email {
+    width: 250px;
+ 
+}
+
+#button-1{
+text-transform: uppercase;
+font-family: arial;
+background-color: #ffe135;
+font-size: medium; 
+color: #313639;
+border: none;
+
+}
+
+p{
+    margin: 0px;
+    padding: 0px;
+}
