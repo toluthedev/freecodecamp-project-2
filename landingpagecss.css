@@ -102,9 +102,19 @@ background-color: #ffe135;
 font-size: medium; 
 color: #313639;
 border: none;
-
+cursor: pointer;
 
 }
+
+#button-1:hover {
+    color: white;
+
+}
+
+
+
+
+
 
 p{
     margin: 0px;
@@ -149,4 +159,11 @@ h2{
 h3 {
     font-family: arial;
     
+}
+
+footer{
+    background-color: gray;
+    margin-left: 300px;
+    margin-right: 320px;
+    padding-bottom: 60px;
 }
