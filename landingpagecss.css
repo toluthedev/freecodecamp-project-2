@@ -56,6 +56,7 @@ margin-left: 300px;
 
 .box-container {
     display:grid;
+    display:flex;
     display: inline-grid;
     grid-template-columns: auto auto auto;
     margin-left: 300px;
@@ -161,9 +162,19 @@ h3 {
     
 }
 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
 footer{
     background-color: gray;
     margin-left: 300px;
     margin-right: 320px;
     padding-bottom: 60px;
+    text-align: right;
+
 }
